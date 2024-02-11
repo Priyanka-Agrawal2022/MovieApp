@@ -8,6 +8,8 @@ A Movie App built using React.js.
 
 - Increment star rating of a movie.
 - Decrement star rating of a movie.
+- Make a movie Favourite.
+- Make a movie Unfavourite.
 - Add a movie to the cart.
 - Remove a movie from the cart.
 
