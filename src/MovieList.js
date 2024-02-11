@@ -1,11 +1,11 @@
-import Moviecard from "./Moviecard";
+import MovieCard from "./MovieCard";
 
 export default function MovieList(props) {
   const { movies, addStars, reduceStars, handleFav, handleCart } = props;
   return (
     <>
       {movies.map((movie, index) => (
-        <Moviecard
+        <MovieCard
           key={index}
           movie={movie}
           addStars={addStars}

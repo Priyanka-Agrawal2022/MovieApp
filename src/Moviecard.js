@@ -1,4 +1,6 @@
-export default function Moviecard(props) {
+import "./MovieCard.css";
+
+export default function MovieCard(props) {
   const { movie: data, addStars, reduceStars, handleFav, handleCart } = props;
   const { title, plot, poster, price, rating, stars, fav, isInCart } = data;
 
